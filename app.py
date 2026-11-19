@@ -33,7 +33,7 @@ st.divider()
 # Sidebar Settings
 st.sidebar.header("⚙️ EfficientNetB0 & Alert Settings")
 drowsy_threshold = st.sidebar.slider("Drowsiness Probability Threshold", 0.30, 0.85, 0.45, 0.05)
-emergency_contact = st.sidebar.text_input("Emergency Contact Number", "+91-6301364986")
+emergency_contact = st.sidebar.text_input("Emergency Contact Number", "+91-7207511649")
 telegram_bot_token = st.sidebar.text_input("Telegram Bot Token", value="9104006337:AAHT5nAoN97iz6-FXAOcWL6XVGfCJGiEQr8", type="password")
 telegram_chat_id = st.sidebar.text_input("Telegram Chat ID", value="5919875650")
 driver_location = st.sidebar.text_input("Live GPS Coordinates", "17.6868° N, 83.2185° E (Anakapalle, NH-16)")
